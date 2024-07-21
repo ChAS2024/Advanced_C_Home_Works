@@ -5,8 +5,13 @@
 */
 
 #include <stdio.h>
+#include <inttypes.h>
 
 int main(void) {
-    
+    uint32_t N;
+    uint32_t K;
+    scanf("%"SCNu32"%"SCNu32, &N, &K);  
+    N = ((N >> K) | (N << (32 -K)));
+    printf("%u\n", N);  
     return 0;
 }
