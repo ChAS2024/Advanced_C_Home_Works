@@ -1,3 +1,15 @@
+/*
+ * Задача 7-2-Вид сверху
+ * В программе описана структура для хранения двоичного дерева:
+ * typedef struct tree {
+ *     datatype key;
+ *     struct tree *left, *right;
+ * } tree;
+
+ * Необходимо реализовать функцию, которая печатает вид дерева сверху. Функция должна строго соответствовать прототипу: void btUpView(tree *root)
+ * В качестве ответа загрузите только одну функцию void btUpView(tree *root)
+ * */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
